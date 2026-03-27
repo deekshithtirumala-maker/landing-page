@@ -32,6 +32,21 @@ navLinks.forEach((link) => {
     if (target) {
       target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
+
+    const mobileMenu = document.querySelector('.nav-links');
+    if (mobileMenu && mobileMenu.classList.contains('open')) {
+      mobileMenu.classList.remove('open');
+    }
   });
 });
+
+const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+const mobileMenu = document.querySelector('.nav-links');
+
+if (mobileMenuBtn && mobileMenu) {
+  mobileMenuBtn.addEventListener('click', () => {
+    mobileMenu.classList.toggle('open');
+  });
+}
+
 
