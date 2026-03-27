@@ -3,7 +3,7 @@
 A clean, minimal, and professional personal portfolio website built with HTML, CSS, and JavaScript.
 
 ## Live Demo
-https://flourishing-figolla-b1eb24.netlify.app/
+https://deekshithtirumala.netlify.app/
 
 ## Features
 - Minimal light UI inspired by Apple/Linear/Notion/Vercel
